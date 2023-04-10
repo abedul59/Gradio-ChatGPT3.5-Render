@@ -10,7 +10,7 @@ def Generate(name):
 
 app = gr.Interface(fn=Generate, inputs="text", outputs="text")
 
-app.launch()   
+app.launch(share=True)   
 
 
 ''''
